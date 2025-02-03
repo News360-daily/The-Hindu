@@ -75,7 +75,7 @@ nav ul li a{
     .menu-icon{
         display: block;
         position: fixed;
-        margin-left: 420px;
+        margin-left: 380px;
         margin-top: 50px;
     }
     .logo{
@@ -87,12 +87,13 @@ nav ul li a{
     }
     .btnn{
         position: fixed;
-        margin-left: 290px;
+        margin-left: 250px;
         margin-top: 25px;
     }
     .search{
         margin-top: -55px;
-        margin-left: 270px;
+        margin-left: 240px;
+        position: fixed;
     }
     nav{
         height: 90px;
