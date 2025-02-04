@@ -31,7 +31,7 @@ nav ul{
     display: flex;
     gap: 30px;
     margin-top: 50px;
-    margin-left: 75px;
+    margin-left: 100px;
     position: fixed;
     font-size: 20px;
     margin-bottom: none;
@@ -60,17 +60,22 @@ nav ul li a{
     nav ul{
         position: fixed;
         top: 70px;
-        left: 0;
+        left: -100px;
         right: 0;
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         text-align: center;
-        background: goldenrod;
-        width: 200px;
+        background: wheat;
+        background-size: cover;
+        width: 500px;
+        height: 700px;
         gap: 0;
         overflow: hidden;
     }
     nav ul li{
         padding: 20px;
+        margin-right: 100px;
     }
     .menu-icon{
         display: block;
@@ -91,9 +96,12 @@ nav ul li a{
         margin-top: 25px;
     }
     .search{
-        margin-top: -55px;
-        margin-left: 240px;
+        margin-top: px;
+        margin-left: 280px;
         position: fixed;
+    }
+    .search span{
+        font-size: 20px;
     }
     nav{
         height: 90px;
@@ -141,6 +149,7 @@ nav ul li a{
     position: fixed;
     margin-left: ;
     border: none;
+    margin-top: 52px;
 }
 
 .search span{
@@ -148,3 +157,7 @@ nav ul li a{
     width: 100px;
     background: white;
 }
+
+
+
+
