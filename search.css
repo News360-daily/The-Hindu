@@ -45,10 +45,7 @@ nav ul li a{
     text-decoration: none;
     color: black;
 }
-nav ul li i{
-    
-    
-}
+
 .menu-icon{
     display: ;
     position: none;
@@ -69,10 +66,10 @@ nav ul li i{
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
-        background: white;
+        background: wheat;
         background-size: cover;
         width: 500px;
-        height: 800px;
+        height: 700px;
         gap: 0;
         overflow: hidden;
     }
@@ -98,16 +95,22 @@ nav ul li i{
         margin-left: 250px;
         margin-top: 25px;
     }
-    .search{
+    .srch{
         margin-top: px;
         margin-left: 280px;
         position: fixed;
     }
-    .search span{
+    .srch span{
         font-size: 20px;
     }
     nav{
         height: 90px;
+    }
+    .srch{
+       margin-left: 10px;
+    }
+    .btn{
+        margin-left: -30px;
     }
     
 }
@@ -149,57 +152,38 @@ nav ul li i{
     margin-bottom: 30px;
 }
 
-.search{
+.srch{
     position: fixed;
     margin-left: ;
     border: none;
     margin-top: 45px;
 }
 
-.search span{
+.srch span{
     height: 20px;
     width: 100px;
     background: white;
 }
-nav ul li button{
-    cursor: pointer;
-    transition: 0.4s ease;
-    background-color: white;
-    border: none;
-    font-size: 15px;
-}
-
-nav ul .dropdown ul{ 
-    position:none;
-    min-width: 100px;
+.srh{
     display: flex;
-    flex-direction: column;
-    margin-left: -10px;
-    margin-top: -0px;
-    overflow: hidden;
-    margin-top: 35px;
-    gap: 25px;
-    background-color: hsl(0, 0%, 95%);
-    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.796);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: fixed;
 }
-
-@media only screen and (max-width: 500px) {
-    nav ul .dropdown ul {
-        top: 300px;
-        width: 100px;
-        height: 200px;
-        left: 150px;
-        position:none;
-        background-color: hsl(0, 0%, 95%);
-        box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.796);
-        min-width: 70px;
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        gap: 0px;
-    
-    }
-    nav ul .dropdown ul li{
-        s
-    }
+.srch{
+    margin-right: 30px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+.btn{
+    margin-left: 330px;
+    width: 50px;
+    height: 30px;
+    margin-top: 45px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }

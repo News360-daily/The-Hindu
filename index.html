@@ -14,13 +14,19 @@
             <div class="logo">
               <h1>TheHindu</h1>
             </div>
-            
+            <button class="search"><a href="search.html"><span class="fa fa-search"></span></a></button>
             <ul id="menuList">
-              <button class="search"><a href="search.html"><span class="fa fa-search"></span></a></button>
                 <li><a href="#">Karnataka</a></li>
-                <li><a href="#">India</a></li>
+                <li><a href="#">india</a></li>
                 <li><a href="#">World</a></li>
-                <li><a href="#">Sports</a></li>
+                <li><a href="#">Sports</a> <button><i class="fa-solid fa-chevron-down"onclick="button()"></i></button></li>
+                <div class="dropdown">
+                  <ul id="menu">
+                    <li><a href="#">Cricket</a></li>
+                    <li><a href="#">Kabbadi</a></li>
+                    <li><a href="#">Football</a></li>
+                 </ul>
+              </div>
                 <li><a href="#">Science</a></li>
                 <li><a href="#">Health</a></li>
                 <li><a href="#">Education</a></li>
@@ -39,15 +45,27 @@
             function toggleMenu(){
               if(menuList.style.maxHeight == "0px")
               {
-                menuList.style.maxHeight = "300px";
+                menuList.style.maxHeight = "400px";
               }
               else{
                 menuList.style.maxHeight = "0px";
               }
             }
-
           </script>
+        
+          <script>
+            let menu = document.getElementById("menu")
+            menu.style.maxHeight = "0px";
 
-          
+            function button(){
+              if(menu.style.maxHeight == "0px")
+              {
+                menu.style.maxHeight = "300px";
+              }
+              else{
+                menu.style.maxHeight = "0px";
+              }
+            }
+          </script>
   </body>  
 </html>

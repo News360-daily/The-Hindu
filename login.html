@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="login.css">
   </head>
   <body>
-      <div class="login-box">
+     <div class="login-box" id="login-form">
+      <form action="">
         <div class="login-header">
             <header>Welcome</header>
             <p>We are happy to have you back!</p>
         </div>
         <div class="input-box">
             <input type="text" class="input-field" id="email" required>
-            <label for="email">Email or phone</label>
+            <label for="email"><i class="fas fa-envelope"></i> Email or phone</label>
         </div>
         <div class="input-box">
             <input type="password" class="input-field" id="password" required>
-            <label for="passwowd">Password</label>
+            <label for="passwowd"><i class="fas fa-lock"></i> Password</label>
         </div>
         <div class="forgot">
             <section>
@@ -39,16 +40,19 @@
             <hr>
             <p>Or</p>
         </div>
-        <div class="social-sign-in">
-            <button class="input-google">
-                <a href="#"><img src="google.png"alt=""></a>
-                <p>Sign In with Google</p>
-            <button class="input-twitter">
-                <a href="#"><img src="facebook.png"alt=""></a>
-            </button>
+      </form>  
+         
+      <div class="social-sign-in">
+        <button class="input-google">
+            <a href="google.html"><img src="google.png"alt=""></a>
+            <p>Sign In with Google</p>
+        <button class="input-twitter">
+            <a href="#"><img src="facebook.png"alt=""></a>
+        </button>
+    </div>
+    <div class="sign-up">
+        <P>Don't have an account? <a href="signup.html">sign up</a></p>
+    </div>
         </div>
-        <div class="sign-up">
-            <P>Don't have an account? <a href="signup.html">sign up</a></p>
-      </div>
   </body>
 </html>
