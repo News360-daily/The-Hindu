@@ -200,6 +200,16 @@ nav ul .dropdown ul{
     
     }
     nav ul .dropdown ul li{
-        s
+        
     }
+.news img{
+    position: relative;
+    size: 20px;
+}
+
+.news h4{
+    font-size: 15px;
+}
+.news h3{
+    font-size: 20px;
 }
