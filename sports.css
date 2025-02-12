@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.login-box{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.login-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.content p{
+    color: none;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 300px;
+}
+.login-header a img{
+    width: 300px;
+    bottom: 50px;
+}
+
+
+
+.login-box1{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: -100px;
+    
+}
+.login-header1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.content1 p{
+    color: none;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 300px;
+}
+.login-header1 a img{
+    width: 300px;
+    bottom: 50px;
+}
+
+
+
+.login-box2{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+.login-header2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.content2 p{
+    color: none;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 300px;
+}
+.login-header2 a img{
+    width: 300px;
+    bottom: 50px;
+}
+
+
+
+.login-box3{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+.login-header3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.content3 p{
+    color: none;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 300px;
+}
+.login-header3 a img{
+    width: 300px;
+    bottom: 50px;
+}
+
+
+
+.login-box4{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+.login-header4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.content4 p{
+    color: none;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 300px;
+}
+.login-header4 a img{
+    width: 300px;
+    bottom: 50px;
+}
+
+
+
+.login-box5{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+.login-header5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.content5 p{
+    color: none;
+    margin-top: -50px;
+    font-size: 18px;
+    width: 300px;
+}
+.login-header5 a img{
+    width: 300px;
+    bottom: 50px;
+}

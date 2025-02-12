@@ -213,3 +213,9 @@ nav ul .dropdown ul{
 .news h3{
     font-size: 20px;
 }
+.card-header{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+}
