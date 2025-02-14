@@ -4,103 +4,105 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-adsense-account" content="ca-pub-2673483600894847">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2673483600894847"
-     crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a815086365.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>website</title>
-    <link rel="stylesheet" href="sports.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+          <nav class="shadow">
+            <div class="logo">
+              <h1>TheHindu</h1>
+            </div>
+            <button class="search"><a href="search.html"><span class="fa fa-search"></span></a></button>
+            <ul id="menuList">
+                <li><a href="karnataka.html">Karnataka</a></li>
+                <li><a href="india.html">india</a></li>
+                <li><a href="world.html">World</a></li>
+                <li><a href="sports.html">Sports</a> <button><i class="fa-solid fa-chevron-down"onclick="button()"></i></button></li>
+                <div class="dropdown">
+                  <ul id="menu">
+                    <li><a href="cricket.html">Cricket</a></li>
+                    <li><a href="kabbadi.html">Kabbadi</a></li>
+                    <li><a href="football.html">Football</a></li>
+                 </ul>
+              </div>
+                <li><a href="science.html">Science & Tecnology</a></li>
+                <li><a href="health.html">Health</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="live.html">Live</a></li>
+            </ul>
+            <button class="btnn"><a href="login.html">Login<i class="fa-regular fa-user"></i></a></button>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"onclick="toggleMenu()"></i>
+            </div>
+          </nav>
 
-    <div class="login-box" id="login-form">
-      <form action="">
-        <div class="login-header">
+          <script>
+            let menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "0px";
 
-          <a href="karnataka.html"><img src=""alt=""></a>
+            function toggleMenu(){
+              if(menuList.style.maxHeight == "0px")
+              {
+                menuList.style.maxHeight = "400px";
+              }
+              else{
+                menuList.style.maxHeight = "0px";
+              }
+            }
+          </script>
+        
+          <script>
+            let menu = document.getElementById("menu")
+            menu.style.maxHeight = "0px";
 
-        </div>
-        <div class="content">
-          <a href="karnataka.html"><p>Mamata Banerjee: ಇದೊಂದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಬಿಜೆಪಿಯನ್ನು ತಡೆಯುವುದು ಇಂಡಿಯಾ ಬಣಕ್ಕೆ ಕಷ್ಟ; ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಪಶ್ಚಿಮ ಬಂಗಾಳ ಮುಖ್ಯಮಂತ್ರಿ ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಅವರು.........</p>
+            function button(){
+              if(menu.style.maxHeight == "0px")
+              {
+                menu.style.maxHeight = "300px";
+              }
+              else{
+                menu.style.maxHeight = "0px";
+              }
+            }
+          </script>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="flex-container">
+               <div class="flex-box1">
+                    <h1><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i>  KARNATAKA  <i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-chevron-left"></i></h1>
+                    <br>
+                    <br>
+               </div>
+               <div class="flex-box">
+                   <img src="post.jpg" alt="">
+                   <h2>ಭಾರತೀಯ ಅಂಚೆ ಇಲಾಖೆಯಿಂದ 21,413 ಪೋಸ್ಟ್‌ಮ್ಯಾನ್‌ ನೇಮಕ: 10th ಪಾಸಾದವರಿಂದ ಅರ್ಜಿ ಆಹ್ವಾನ</h2>
+                   <h3>Indian Postal Dept GDS Vacancy 2025: ಭಾರತೀಯ ಅಂಚೆ ಇಲಾಖೆಯು ಇದೀಗ ಎಸ್‌ಎಸ್ಎಲ್‌ಸಿ ಪಾಸಾದವರಿಗೆ ಭರ್ಜರಿ ಜಾಬ್....... <a href="k.html">Read more</a></h3>
+
+               </div>
+               <div class="flex-box">
+                    Box1
+               </div>
+               <div class="flex-box">
+                    Box1
+                </div>
+                <div class="flex-box">
+                    Box1
+                </div>
+                <div class="flex-box">
+                    Box1
+                </div>
+                <div class="flex-box">
+                    Box1
+                </div>
           </div>
-      </form>
-    </div>
-
-
-
-    <div class="login-box1" id="login-form">
-      <form action="">
-        <div class="login-header1">
-
-          <a href="karnataka.html"><img src="2024-11-32268cde1c7db167ac81181bbe75bd72.avif"alt=""></a>
-
-        </div>
-        <div class="content1">
-          <a href="#"><p>Mamata Banerjee: ಇದೊಂದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಬಿಜೆಪಿಯನ್ನು ತಡೆಯುವುದು ಇಂಡಿಯಾ ಬಣಕ್ಕೆ ಕಷ್ಟ; ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಪಶ್ಚಿಮ ಬಂಗಾಳ ಮುಖ್ಯಮಂತ್ರಿ ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಅವರು.........</p></a>
-        </div>
-      </form>
-    </div>
-
-
-
-    <div class="login-box2" id="login-form">
-      <form action="">
-        <div class="login-header2">
-
-          <a href="myhindusthan.site"><img src="2024-11-32268cde1c7db167ac81181bbe75bd72.avif"alt=""></a>
-
-        </div>
-        <div class="content2">
-          <a href="#"><p>Mamata Banerjee: ಇದೊಂದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಬಿಜೆಪಿಯನ್ನು ತಡೆಯುವುದು ಇಂಡಿಯಾ ಬಣಕ್ಕೆ ಕಷ್ಟ; ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಪಶ್ಚಿಮ ಬಂಗಾಳ ಮುಖ್ಯಮಂತ್ರಿ ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಅವರು.........</p></a>
-        </div>
-      </form>
-    </div>
-
-
-
-    <div class="login-box3" id="login-form">
-      <form action="">
-        <div class="login-header3">
-
-          <a href="karnataka.html"><img src="2024-11-32268cde1c7db167ac81181bbe75bd72.avif"alt=""></a>
-
-        </div>
-        <div class="content3">
-          <a href="#"><p>Mamata Banerjee: ಇದೊಂದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಬಿಜೆಪಿಯನ್ನು ತಡೆಯುವುದು ಇಂಡಿಯಾ ಬಣಕ್ಕೆ ಕಷ್ಟ; ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಪಶ್ಚಿಮ ಬಂಗಾಳ ಮುಖ್ಯಮಂತ್ರಿ ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಅವರು.........</p></a>
-        </div>
-      </form>
-    </div>
-
-
-
-    <div class="login-box4" id="login-form">
-      <form action="">
-        <div class="login-header4">
-
-          <a href="karnataka.html"><img src="2024-11-32268cde1c7db167ac81181bbe75bd72.avif"alt=""></a>
-
-        </div>
-        <div class="content4">
-          <a href="#"><p>Mamata Banerjee: ಇದೊಂದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಬಿಜೆಪಿಯನ್ನು ತಡೆಯುವುದು ಇಂಡಿಯಾ ಬಣಕ್ಕೆ ಕಷ್ಟ; ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಪಶ್ಚಿಮ ಬಂಗಾಳ ಮುಖ್ಯಮಂತ್ರಿ ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಅವರು.........</p></a>
-        </div>
-      </form>
-    </div>
-
-
-
-    <div class="login-box5" id="login-form">
-      <form action="">
-        <div class="login-header5">
-
-          <a href="karnataka.html"><img src="2024-11-32268cde1c7db167ac81181bbe75bd72.avif"alt=""></a>
-
-        </div>
-        <div class="content5">
-          <a href="#"><p>Mamata Banerjee: ಇದೊಂದು ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಬಿಜೆಪಿಯನ್ನು ತಡೆಯುವುದು ಇಂಡಿಯಾ ಬಣಕ್ಕೆ ಕಷ್ಟ; ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಪಶ್ಚಿಮ ಬಂಗಾಳ ಮುಖ್ಯಮಂತ್ರಿ ಮಮತಾ ಬ್ಯಾನರ್ಜಿ ಅವರು.........</p></a>
-        </div>
-      </form>
-    </div>
-
-  </body>
+    
+  </body>  
 </html>

@@ -5,11 +5,6 @@
     font-family: sans-serif;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
-}
-
 nav{
     padding: 10px 30px;
     display: flex;
@@ -27,6 +22,8 @@ nav{
     width: 1370px;
 }
 
+
+
 nav ul{
     display: flex;
     gap: 30px;
@@ -35,6 +32,19 @@ nav ul{
     position: fixed;
     font-size: 20px;
     margin-bottom: none;
+    height: 50px;
+}
+nav ul li a:hover{
+    background-color: orangered;
+    color: #fff;
+}
+nav ul li a:focus{
+    background-color: orangered;
+    color: #fff;
+}
+nav ul li a:active{
+    background-color: orangered;
+    color: #fff;
 }
 
 nav ul li{
@@ -44,13 +54,14 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
+
 }
 nav ul li i{
     
     
 }
 .menu-icon{
-    display: ;
+    display: none;
     position: none;
 }
 
@@ -62,7 +73,7 @@ nav ul li i{
 @media only screen and (max-width: 500px) {
     nav ul{
         position: fixed;
-        top: 70px;
+        top: 50px;
         left: -100px;
         right: 0;
         display: flex;
@@ -202,20 +213,47 @@ nav ul .dropdown ul{
     nav ul .dropdown ul li{
         
     }
-.news img{
-    position: relative;
-    size: 20px;
+    .flex-box h1 i{
+        display: none;
+    }
 }
 
-.news h4{
-    font-size: 15px;
-}
-.news h3{
-    font-size: 20px;
-}
-.card-header{
-    justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 20px;
+.flex-container{
+    justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.flex-box{
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.flex-box img{
+    width: 400px;
+}
+
+.headline{
+    margin-left: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.flex-box1{
+    width: 400px;
+    height: 50px;
+    background: #fff;
+    border: none;
+}
+.flex-box1 h1{
+    margin-left: 30px;
 }
